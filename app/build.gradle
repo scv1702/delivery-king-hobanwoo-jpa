@@ -26,6 +26,8 @@ dependencies {
     implementation 'org.hibernate:hibernate-core:5.5.6.Final'
     implementation 'org.hibernate:hibernate-entitymanager:5.5.6.Final'
     implementation 'com.h2database:h2:1.4.200' // Optional: Use H2 as an in-memory database
+    
+    compileOnly 'org.projectlombok:lombok:1.18.30'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
